@@ -3,7 +3,7 @@ import "./index.css";
 const App = () => {
   const names = [
     "abebe",
-    "kebede",
+    "abebe",
     "yohannes",
   ];
   return (
