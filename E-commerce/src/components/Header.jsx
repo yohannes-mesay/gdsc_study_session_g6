@@ -10,7 +10,7 @@ const Header = () => {
             WSP
           </Link>
         </div>
-        <div className="nav-nav-pi.ls">
+        <div className="nav-nav-pills">
           <Link to="/" className="brand">
             Home
           </Link>
@@ -21,12 +21,10 @@ const Header = () => {
           <Link to="products" className="brand">
             Products
           </Link>
-          <Link to="/" className="brand">
-            Home
+          <Link to="posts" className="brand">
+            Posts
           </Link>
-          <Link to="/" className="brand">
-            Home
-          </Link>
+          
         </div>
 
       </div>

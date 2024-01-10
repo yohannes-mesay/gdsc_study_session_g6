@@ -1,5 +1,6 @@
-.inner-container{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+body{
+    background-color: #282828;
+}
+.main{
+    background-color: aliceblue;
 }

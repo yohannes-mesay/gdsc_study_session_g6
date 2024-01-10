@@ -17,7 +17,6 @@ function App() {
       <div>
         <BrowserRouter>
           <Header />
-        <Header />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
@@ -25,6 +24,7 @@ function App() {
             <Route path="products" element={<Products />} />
             <Route path="products/:productId" element={<SingleProducts />} />
           </Routes>
+          <Footer />
         </BrowserRouter>
       </div>
     </>
