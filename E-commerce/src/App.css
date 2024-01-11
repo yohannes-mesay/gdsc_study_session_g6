@@ -245,3 +245,22 @@ footer .copyrights a {
 footer .copyrights a:hover {
 	color: #fff;
 }
+
+nav{
+ display: flex;
+}
+nav a{
+	display: flex;
+	margin-right: 15px;
+	border: 4px ; 
+}
+nav a:hover{
+	background-color: #95aac9;
+	font-size:1.5rem;
+
+}
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

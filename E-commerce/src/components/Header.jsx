@@ -7,7 +7,7 @@ const Header = () => {
       <div className="d-flex justify-content-between align-items-center">
         <div className="logo">
           <NavLink to="/" className="brand">
-            WSP
+            E-COMMERCE  
           </NavLink>
         </div>
         <nav className="  -nav-pills">
