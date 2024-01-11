@@ -1,110 +1,124 @@
 const PRODUCTS = [
-    {
-      id: 1,
-      name: 'Bluetooth and Wireless Over Ear Headphone (Black)',
-      price: '$15',
-      image: require('./images/headphone.jpg'),
-      details: 'Dive into the electronic galaxy, where pixels dance with circuits, unleashing a symphony of techno magic. Unravel tech wonders, from whispering gadgets to dazzling sparks.',
-    },
-    {
-      id: 2,
-      name: 'Smart LED TV - 55 inches',
-      price: '$499',
-      image: require('./images/smart_tv.jpg'),
-      details: 'Immerse yourself in vivid visuals and lifelike colors with our Smart LED TV. Experience entertainment like never before with advanced features and seamless connectivity.',
-    },
-    {
-      id: 3,
-      name: 'Wireless Charging Pad (White)',
-      price: '$29',
-      image: require('./images/charging_pad.jpg'),
-      details: 'Say goodbye to tangled cables! Our wireless charging pad in sleek white design provides a hassle-free charging experience for your compatible devices.',
-    },
-    {
-      id: 4,
-      name: 'Smart Home Security Camera System',
-      price: '$149',
-      image: require('./images/security_camera.jpg'),
-      details: 'Keep an eye on your home with our smart security camera system. Easy setup, high-resolution video, and smart features ensure peace of mind wherever you are.',
-    },
-    {
-      id: 5,
-      name: 'Portable Bluetooth Speaker (Blue)',
-      price: '$39',
-      image: require('./images/bluetooth_speaker.jpg'),
-      details: 'Take your music on the go with our portable Bluetooth speaker. Compact design, rich sound, and long-lasting battery make it perfect for any adventure.',
-    },
-    {
-      id: 6,
-      name: 'Ultra-slim Mechanical Gaming Keyboard',
-      price: '$89',
-      image: require('./images/gaming_keyboard.jpg'),
-      details: 'Enhance your gaming setup with our ultra-slim mechanical gaming keyboard. Responsive keys, customizable RGB lighting, and ergonomic design for the ultimate gaming experience.',
-    },
-    {
-      id: 7,
-      name: 'Smartwatch with Fitness Tracking (Rose Gold)',
-      price: '$129',
-      image: require('./images/smartwatch.jpg'),
-      details: 'Stay connected and active with our smartwatch. Track your fitness, receive notifications, and add a touch of style with the elegant rose gold finish.',
-    },
-    {
-      id: 8,
-      name: '4K Action Camera Bundle',
-      price: '$199',
-      image: require('./images/action_camera.jpg'),
-      details: 'Capture your adventures in stunning 4K with our action camera bundle. Waterproof, compact, and equipped with accessories for versatile use in any environment.',
-    },
-    {
-      id: 9,
-      name: 'Noise-Canceling Wireless Earbuds',
-      price: '$79',
-      image: require('./images/earbuds.jpg'),
-      details: 'Immerse yourself in music with our noise-canceling wireless earbuds. Sleek design, crystal-clear audio, and comfortable fit for an unparalleled listening experience.',
-    },
-    {
-      id: 10,
-      name: 'Ultra HD Webcam with Microphone',
-      price: '$49',
-      image: require('./images/webcam.jpg'),
-      details: 'Upgrade your video calls with our Ultra HD webcam. Crisp video quality, built-in microphone, and easy installation for seamless online communication.',
-    },
-    {
-      id: 11,
-      name: 'Solar-Powered Outdoor LED Lights (Set of 4)',
-      price: '$59',
-      image: require('./images/outdoor_lights.jpg'),
-      details: 'Illuminate your outdoor space with our solar-powered LED lights. Set of 4 for easy installation, energy-efficient, and perfect for enhancing your garden or patio.',
-    },
-    {
-      id: 12,
-      name: 'Foldable Electric Scooter (Black)',
-      price: '$299',
-      image: require('./images/electric_scooter.jpg'),
-      details: 'Zip through the city with our foldable electric scooter. Compact, eco-friendly, and perfect for commuting or exploring urban environments.',
-    },
-    {
-      id: 13,
-      name: 'Smart Thermostat for Home Automation',
-      price: '$119',
-      image: require('./images/smart_thermostat.jpg'),
-      details: 'Optimize your homes climate with our smart thermostat. Energy-efficient, programmable, and compatible with various smart home platforms for seamless automation.',
-    },
-    {
-      id: 14,
-      name: 'Wireless Gaming Mouse with RGB Lighting',
-      price: '$49',
-      image: require('./images/gaming_mouse.jpg'),
-      details: 'Elevate your gaming experience with our wireless gaming mouse. Precision, customizable RGB lighting, and ergonomic design for a competitive edge.',
-    },
-    {
-      id: 15,
-      name: 'Ultra-Thin Laptop with SSD Storage',
-      price: '$899',
-      image: require('./images/ultra_thin_laptop.jpg'),
-      details: 'Unleash productivity with our ultra-thin laptop. Fast SSD storage, sleek design, and powerful performance for work, creativity, and entertainment.',
-    },
-  ];
-  
-  export default PRODUCTS;
-  
+	{
+		id: 1,
+		name: 'Bluetooth & Wireless Over-Ear Headphones (Black)',
+		price: '$12',
+		image: require('./images/1.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 2,
+		name: 'Apple iPhone 128GB',
+		price: '$14',
+		image: require('./images/2.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 3,
+		name: 'Running Shoe Red & White',
+		price: '$13.67',
+		image: require('./images/3.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 4,
+		name: 'Apple iPhone Blue 64GB',
+		price: '$47.56',
+		image: require('./images/4.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 5,
+		name: 'Bluetooth Over-Ear Headphones (White)',
+		price: '$53.06',
+		image: require('./images/5.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 6,
+		name: 'Logitech Gamepad White for PC/PS3',
+		price: '$93.20',
+		image: require('./images/6.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 7,
+		name: 'Premium Smart Watch (Black)',
+		price: '$25',
+		image: require('./images/7.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 8,
+		name: 'Multicolor Modern Shoe for Her',
+		price: '$99.98',
+		image: require('./images/8.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 9,
+		name: 'Apple iPhone (Brand New)',
+		price: '$87.22',
+		image: require('./images/9.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 10,
+		name: 'Smart Watch with Latest Android OS',
+		price: '$11',
+		image: require('./images/10.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 11,
+		name: 'Modern & Original Eye Glasses',
+		price: '$69',
+		image: require('./images/11.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 12,
+		name: 'Nikon Camera (Slightly Used) 750',
+		price: '$33',
+		image: require('./images/12.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 13,
+		name: 'Red & Black Ganming Mouse for PC',
+		price: '$99',
+		image: require('./images/13.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 14,
+		name: 'Multi Purpose College Bag Backpack',
+		price: '$44',
+		image: require('./images/14.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+	{
+		id: 15,
+		name: 'White & Black Watch Concept',
+		price: '$22.22',
+		image: require('./images/15.jpg'),
+		details:
+			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+	},
+];
+
+export default PRODUCTS;

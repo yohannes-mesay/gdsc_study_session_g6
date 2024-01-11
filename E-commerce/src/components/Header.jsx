@@ -1,34 +1,36 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import '../index.css'
 const Header = () => {
-  return (
+  return (<header>
     <div className="container">
-      <div className="inner-container">
+      <div className="d-flex justify-content-between align-items-center">
         <div className="logo">
-          <Link to="/" className="brand">
+          <NavLink to="/" className="brand">
             WSP
-          </Link>
+          </NavLink>
         </div>
-        <div className="nav-nav-pills">
-          <Link to="/" className="brand">
+        <nav className="  -nav-pills">
+          <NavLink to="/" className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}>
             Home
-          </Link>
+          </NavLink>
 
-          <Link to="about" className="brand">
+          <NavLink to="about" className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}>
             About
-          </Link>
-          <Link to="products" className="brand">
-            Products
-          </Link>
-          <Link to="posts" className="brand">
+          </NavLink>
+          <NavLink to="products"
+            className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}>
+            Products</NavLink>
+
+          <NavLink to="posts" className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}>
             Posts
-          </Link>
-          
-        </div>
+          </NavLink>
+
+        </nav>
 
       </div>
     </div>
+    </header>
   );
 };
 
