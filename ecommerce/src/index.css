@@ -45,7 +45,7 @@ img{
 
 
 .header {
-  
+    background-color:rgb(30, 30, 73);
   width: 100%;
 }
 nav {
@@ -92,7 +92,7 @@ nav a {
 .footer {
   box-sizing: border-box;
   font-size: 1.4rem;
-  background-color: #252525;
+  background-color:rgb(30, 30, 73);
   width: 100%;
   position: relative;
   bottom: 0%;
